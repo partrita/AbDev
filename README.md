@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbDev README</title>
 </head>
 <body>
     <h1>AbDev: Predictive Modeling for Monoclonal Antibody (mAb) Biophysical Properties</h1>
