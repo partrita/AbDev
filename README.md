@@ -34,8 +34,8 @@
 
 <h2>Citation</h2>
 <ul>
-    <li><strong>For DeepSP usage:</strong> The tool is currently under review. However, it is temporarily available on BioRxiv for reference. Please cite accordingly when using DeepSP in your research.
-        <br><a href="https://www.biorxiv.org/content/10.1101/2024.02.28.582582v1">Read the DeepSP preprint on BioRxiv</a>
+    <li><strong>For DeepSP usage:</strong> The manuscript is currently under review, but it is available on bioRxiv for reference. Please cite accordingly when using DeepSP in your research.
+        <br><a href="https://www.biorxiv.org/content/10.1101/2024.02.28.582582v1">Read the DeepSP preprint on bioRxiv</a>
     </li>
     <li><strong>For AbDev usage:</strong> The publication related to AbDev is currently under preparation. More details will be provided upon publication.</li>
 </ul>
