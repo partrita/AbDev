@@ -29,7 +29,7 @@
 
 <h3>Predicting Biophysical Properties with AbDev</h3>
 <ol start="3">
-    <li><strong>Run the AbDev Notebook:</strong> Next, execute the "AbDev.ipynb" notebook file. This step will process the features generated in the previous step and produce the "Prediction_Result.csv" file. This file includes predictions for 12 biophysical properties of the analyzed mAbs. Or you can run AbDev.py to obtain the results directly</li>
+    <li><strong>Run the AbDev Notebook:</strong> Next, execute the "AbDev.ipynb" notebook file. This step will process the features generated in the previous step and produce the "Prediction_Result.csv" file. This file includes predictions for 12 biophysical properties of the analyzed mAbs. Or you can run AbDev.py to obtain the results directly.</li>
 </ol>
 
 <h2>Citation</h2>
