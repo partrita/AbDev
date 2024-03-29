@@ -114,7 +114,7 @@ for index,row in dataset_test.iterrows():
   SMAC_transformed.append(prediction_SMAC)
   Tm.append(prediction_Tm)
 
-# --------------------------- Result Sheet Generation -------------------------- #
+# ------------------------------- Result Sheet Generation ------------------------------ #
   
 Name = dataset_test[['Name']].to_numpy()
 data = np.column_stack((Name,ACSINS_transformed,AS,BVP,CIC_transformed,CSI_transformed,ELISA,HIC,HEK,PSR,SGAC_transformed,SMAC_transformed,Tm))
