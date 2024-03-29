@@ -1,5 +1,5 @@
 
-## Author: I-En Wu*, Lateefat Kalejaya, Pin-Kuang Lai
+## Author: I-En Wu, Lateefat Kalejaya, Pin-Kuang Lai*
 
 # ------------------------------------------- Package Import ------------------------------------------- #
 
