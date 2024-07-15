@@ -35,7 +35,7 @@
 <h2>Citation</h2>
 <ul>
     <li><strong>For DeepSP usage:</strong> The manuscript is currently under review, but it is available on bioRxiv for reference. Please cite accordingly when using DeepSP in your research.
-        <br><a href="https://www.csbj.org/article/S2001-0370(24)00173-9/fulltext">Read the DeepSP preprint on bioRxiv</a>
+        <br><a href="https://www.csbj.org/article/S2001-0370(24)00173-9/fulltext">Read the DeepSP paper on CSBJ</a>
     </li>
     <li><strong>For AbDev usage:</strong> The publication related to AbDev is currently under preparation. More details will be provided upon publication.</li>
 </ul>
