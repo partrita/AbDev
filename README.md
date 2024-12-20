@@ -34,7 +34,8 @@
 
 <h2>Citation</h2>
 <ul>
-    <li> Please cite when using DeepSP in your research. L. Kalejaye, I.E. Wu, T. Terry and P.K. Lai, DeepSP: Deep Learning-Based Spatial Properties to Predict Monoclonal Antibody Stability, Comput. Struct. Biotechnol. J., 23:2220–2229, 2024.
+    <li> Please cite when using DeepSP in your research. 
+        L. Kalejaye, I.E. Wu, T. Terry and P.K. Lai, DeepSP: Deep Learning-Based Spatial Properties to Predict Monoclonal Antibody Stability, Comput. Struct. Biotechnol. J., 23:2220–2229, 2024.
         <br><a href="https://www.csbj.org/article/S2001-0370(24)00173-9/fulltext">Read the DeepSP paper on CSBJ</a>
     </li>
     <li><strong>For AbDev usage:</strong> The publication related to AbDev is currently under preparation. More details will be provided upon publication.</li>
