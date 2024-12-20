@@ -39,6 +39,7 @@
         <br><a href="https://www.csbj.org/article/S2001-0370(24)00173-9/fulltext">Read the DeepSP paper on CSBJ</a>
     </li>
     <li><strong>Please cite when using AbDev in your research. </strong> I.E. Wu, L. Kalejaye and P.K. Lai*, "Machine Learning Models for Predicting Monoclonal Antibody Biophysical Properties from Molecular Dynamics Simulations and Deep Learning-based Surface Descriptors", Mol. Pharm, 2024.</li>
+    <br><a href="https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.4c00804">Read the AbDev paper on Mol. Pharm</a>
 </ul>
 </body>
 </html>
