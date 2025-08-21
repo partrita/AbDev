@@ -10,7 +10,7 @@ import joblib
 
 # -------------------------------- Read the SAPSCM.csv file from DeepSP -------------------------------- #
 
-dataset_test = pd.read_csv('SAPSCM.csv')
+dataset_test = pd.read_csv('../data/SAPSCM.csv')
 
 # -------------------------------- Features Selection and Transformation ------------------------------- #
 
@@ -57,18 +57,18 @@ X_Tm = sc.fit_transform(X_Tm)
 
 # -------------------------------- Predictive Model Import ------------------------------- #
 
-ACSINS_SVR_model = joblib.load('Trained_model/ACSINS_SVR_model.joblib')
-AS_LR_model = joblib.load('Trained_model/AS_LR_model.joblib')
-BVP_KNN_model = joblib.load('Trained_model/BVP_KNN_model.joblib')
-CIC_KNN_model = joblib.load('Trained_model/CIC_KNN_model.joblib')
-CSI_SVR_model = joblib.load('Trained_model/CSI_SVR_model.joblib')
-ELISA_KNN_model = joblib.load('Trained_model/ELISA_KNN_model.joblib')
-HEK_KNN_model = joblib.load('Trained_model/HEK_KNN_model.joblib')
-HIC_SVR_model = joblib.load('Trained_model/HIC_SVR_model.joblib')
-PSR_SVR_model = joblib.load('Trained_model/PSR_SVR_model.joblib')
-SGAC_SVR_model = joblib.load('Trained_model/SGAC_SVR_model.joblib')
-SMAC_KNN_model = joblib.load('Trained_model/SMAC_KNN_model.joblib')
-Tm_KNN_model = joblib.load('Trained_model/Tm_KNN_model.joblib')
+ACSINS_SVR_model = joblib.load('../models/Trained_model/ACSINS_SVR_model.joblib')
+AS_LR_model = joblib.load('../models/Trained_model/AS_LR_model.joblib')
+BVP_KNN_model = joblib.load('../models/Trained_model/BVP_KNN_model.joblib')
+CIC_KNN_model = joblib.load('../models/Trained_model/CIC_KNN_model.joblib')
+CSI_SVR_model = joblib.load('../models/Trained_model/CSI_SVR_model.joblib')
+ELISA_KNN_model = joblib.load('../models/Trained_model/ELISA_KNN_model.joblib')
+HEK_KNN_model = joblib.load('../models/Trained_model/HEK_KNN_model.joblib')
+HIC_SVR_model = joblib.load('../models/Trained_model/HIC_SVR_model.joblib')
+PSR_SVR_model = joblib.load('../models/Trained_model/PSR_SVR_model.joblib')
+SGAC_SVR_model = joblib.load('../models/Trained_model/SGAC_SVR_model.joblib')
+SMAC_KNN_model = joblib.load('../models/Trained_model/SMAC_KNN_model.joblib')
+Tm_KNN_model = joblib.load('../models/Trained_model/Tm_KNN_model.joblib')
 
 # --------------------------- Biophysical Properties Prediction -------------------------- #
 
@@ -118,4 +118,4 @@ for index,row in dataset_test.iterrows():
   
 Name = dataset_test[['Name']].to_numpy()
 data = np.column_stack((Name,ACSINS_transformed,AS,BVP,CIC_transformed,CSI_transformed,ELISA,HIC,HEK,PSR,SGAC_transformed,SMAC_transformed,Tm))
-np.savetxt('Prediction_Result.csv', data, delimiter=',', fmt='%s', header='Name,ACSINS_transformed,AS,BVP,CIC_transformed,CSI_transformed,ELISA,HIC,HEK,PSR,SGAC_transformed,SMAC_transformed,Tm', comments='')
+np.savetxt('../data/Prediction_Result.csv', data, delimiter=',', fmt='%s', header='Name,ACSINS_transformed,AS,BVP,CIC_transformed,CSI_transformed,ELISA,HIC,HEK,PSR,SGAC_transformed,SMAC_transformed,Tm', comments='')

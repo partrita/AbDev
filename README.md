@@ -1,46 +1,33 @@
-# AbDev
+# AbDev: 단일클론항체(mAb)의 생물리학적 특성 예측 모델링
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>AbDev: Predictive Modeling for Monoclonal Antibody (mAb) Biophysical Properties</h1>
-    <p>AbDev is a comprehensive predictive model package designed for the analysis of 12 critical biophysical properties of monoclonal antibodies (mAbs). This tool combines a deep learning-based tool, DeepSP, and machine learning techniques to provide insights based on the variable regions sequences of mAbs.</p>
+AbDev는 단일클론항체(mAb)의 12가지 주요 생물리학적 특성 분석을 위해 설계된 포괄적인 예측 모델 패키지입니다. 이 도구는 딥러닝 기반 도구인 DeepSP와 머신러닝 기술을 결합하여 mAb의 가변 영역 서열을 기반으로 통찰력을 제공합니다.
 
-<h2>Getting Started</h2>
-<p>To utilize AbDev effectively, follow the guidelines outlined below:</p>
+-----
 
-<h3>Feature Preparation</h3>
-<ol>
-    <li><strong>Prepare a CSV File:</strong> Begin by preparing a CSV file named "Sequence_Info.csv" using the format provided in this guide as a reference. This file should contain the variable regions sequences of the mAbs you wish to analyze.</li>
-</ol>
+## 시작하기
 
-<h3>Generating Spatial Properties with DeepSP</h3>
-<ol start="2">
-    <li><strong>Run the DeepSP Notebook:</strong> Use the "DeepSP.ipynb" notebook file to execute DeepSP, a deep learning-based tool developed by our group. DeepSP is designed to generate 30 spatial properties of mAbs based on their sequences.
-        <ul>
-            <li>Upon completion, you will obtain a "SAPSCM.csv" file, which contains the spatial properties needed for further analysis.</li>
-        </ul>
-    </li>
-</ol>
+AbDev를 효과적으로 활용하려면 아래에 설명된 가이드라인을 따르십시오:
 
-<h3>Predicting Biophysical Properties with AbDev</h3>
-<ol start="3">
-    <li><strong>Run the AbDev Notebook:</strong> Next, execute the "AbDev.ipynb" notebook file. This step will process the features generated in the previous step and produce the "Prediction_Result.csv" file. This file includes predictions for 12 biophysical properties of the analyzed mAbs. Or you can run train.py to obtain the results directly.</li>
-</ol>
+### 특징 준비
 
-<h2>Citation</h2>
-<ul>
-    <li> <strong>Please cite when using DeepSP in your research. </strong>
-        L. Kalejaye, I.E. Wu, T. Terry and P.K. Lai, DeepSP: Deep Learning-Based Spatial Properties to Predict Monoclonal Antibody Stability, <i>Comput. Struct. Biotechnol. J.</i>, 23:2220–2229, 2024.
-        <br><a href="https://www.csbj.org/article/S2001-0370(24)00173-9/fulltext">Read the DeepSP paper on CSBJ</a>
-    </li>
-    <li><strong>Please cite when using AbDev in your research. </strong> I.E. Wu, L. Kalejaye and P.K. Lai, "Machine Learning Models for Predicting Monoclonal Antibody Biophysical Properties from Molecular Dynamics Simulations and Deep Learning-based Surface Descriptors", <i>Mol. Pharm</i>, 2024.
-    <br><a href="https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.4c00804">Read the AbDev paper on Mol. Pharm</a>
-    </li>
-</ul>
-</body>
-</html>
+1.  CSV 파일 준비: 먼저 이 가이드에서 제공하는 형식을 참조하여 `Sequence_Info.csv`라는 이름의 CSV 파일을 준비합니다. 이 파일에는 분석하고자 하는 mAb의 가변 영역 서열이 포함되어야 합니다.
+
+### DeepSP로 공간적 특성 생성하기
+
+2.  DeepSP 노트북 실행: `DeepSP.ipynb` 노트북 파일을 사용하여 저희 그룹이 개발한 딥러닝 기반 도구인 DeepSP를 실행합니다. DeepSP는 mAb의 서열을 기반으로 30가지 공간적 특성을 생성하도록 설계되었습니다.
+      * 완료되면 추가 분석에 필요한 공간적 특성이 포함된 `SAPSCM.csv` 파일을 얻게 됩니다.
+
+### AbDev로 생물리학적 특성 예측하기
+
+3.  AbDev 노트북 실행: 다음으로 `AbDev.ipynb` 노트북 파일을 실행합니다. 이 단계는 이전 단계에서 생성된 특징들을 처리하여 `Prediction_Result.csv` 파일을 생성합니다. 이 파일에는 분석된 mAb의 12가지 생물리학적 특성에 대한 예측이 포함됩니다. 또는 `train.py`를 실행하여 결과를 직접 얻을 수도 있습니다.
+
+-----
+
+## 인용
+
+  * 연구에 DeepSP를 사용할 경우 다음 논문을 인용해 주십시오.
+    L. Kalejaye, I.E. Wu, T. Terry and P.K. Lai, DeepSP: Deep Learning-Based Spatial Properties to Predict Monoclonal Antibody Stability, *Comput. Struct. Biotechnol. J.*, 23:2220–2229, 2024.
+    
+  * 연구에 AbDev를 사용할 경우 다음 논문을 인용해 주십시오.
+    I.E. Wu, L. Kalejaye and P.K. Lai, "Machine Learning Models for Predicting Monoclonal Antibody Biophysical Properties from Molecular Dynamics Simulations and Deep Learning-based Surface Descriptors", *Mol. Pharm*, 2024.
+    
